@@ -1,37 +1,40 @@
-## Welcome to GitHub Pages
+## 欢迎来到我的spark 学习页面
+在大数据时代，spark作为一款大数据的处理工具，主要的特地就是快，在很多公司中有着广泛的运用，是很多开发特别是算法工程师的必备技能。很多面试都会聊这些。
+### 我与spark的故事
 
-You can use the [editor on GitHub](https://github.com/flash55555/guide/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+我是19年参加的校招，19年3月接触的spark.当时的目的是为了面试。所以我就跑去图书馆，一下接了5本spark的书籍，可以想象我当时对于spark的知识是多么的
+渴求。但是当我看完之后，最大的感受就是--看！不！懂！。好多书籍里面都是关于原理的部分，太难了对于新手来说。只好把梳理的东西死记硬背下来，6月参加头条
+大数据组的面试时候。面试题目是：每个user后面跟着他的访问记录，可能很少，也可能很多，首先需不需要对这些访问记录条数做特殊处理，我答，不需要啊，直接上
+啊。遂卒！
+8月参加腾讯视频提前批，一面聊得特别好，我觉得稳了。二面来的小姐姐问我，如果用spark训练逻辑模型，由于数据是分区存放的，那么在梯度下降的时候，该怎么办？
+我说直接上啊，直接训练不就完了么。遂卒！
+就这样磕磕盼盼终于是有了工作。加入第一个项目就是写spark程序，两眼一抹黑，怎么办。直接上啊。于是开始读spark文档，根本读不懂。对新手来说，spark现
+在还没有一份很好的上手资料。目前对spark有了很多的使用经验后，发现，其实没有没那么难，所以就想着回馈社会，把自己的一些理解都写出来，让更多的同学可以
+更快的入门。
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+##适合人群
+本教程适合对spark完全没有概念的同学，比如找工作需要面试的同学，或者刚工作开始学的新手。
+注意本教程是面向使用spark的，对于开发spark底层组件的同学，请直接向文档贡献底层原理，哈哈哈
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+##学习目标
+学完本教程，你将会入门spark，对Spark的一些原理有基本的认识。可以利用spark做数据分析，以及可以做一些基本的spark调优工作。
 
-```markdown
-Syntax highlighted code block
+##学习基础
+本教程将会使用scala编写，默认你已经有了scala基础，如果没有请阅读 《快学scala》 这本书有一些基本的概念即可。
+如果为了快速面试，也可以先只看原理部分。
 
-# Header 1
-## Header 2
-### Header 3
+##环境基础
+我使用spark == 2.1.1 版本的。官方文档 http://spark.apache.org/docs/2.1.2/   （将url里的版本号替换为你使用的既可以切换不同版本的文档）
+java 版本 == 1.8
+scala 版本 == v2018.3.7
 
-- Bulleted
-- List
+如果你有条件可以使用集群，那就非常完美，因为配环境是在是太烦人儿了。
+如果不能使用集群的话，需要按照官方文档Overview部分里教程在本机安装spark,这样可以在本地模拟集群环境。对于学习Spark的语法知识以了解原理足够了。
+当然，你可以等到看完我的教程的前几章再去安装spark。
 
-1. Numbered
-2. List
 
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/flash55555/guide/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+好的，同学，下面请开始阅读我为了精心制作的近乎大白话的文档吧！
+学完后校招的同学面试可以多答对几个题，offer从白菜价升到sp。
+工作的朋友也可以接一些spark的项目，工作起来又快又好，年底升职加薪的就是你了。
+想想你数钱的样子,oh!my!god! 
